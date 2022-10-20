@@ -2,7 +2,7 @@
 
 ## Login-form-light
 
-![Login-form-light](/Login_Form_Light/Login-Form-Light.gif)
+![Login-form-light](/Login_Form_Light/Login-Form-Light_Trim.gif)
 
 ## Perfect-Layout
 
