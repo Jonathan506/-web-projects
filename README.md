@@ -15,3 +15,7 @@
 ## Menu
 
 ![Menu](/Menu/Menu-Responsive.gif)
+
+## Price Table
+
+![Price-Table](/Price_Table/Preview.png)
