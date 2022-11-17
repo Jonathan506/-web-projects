@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+.img-container{
+    display: flex;
+    margin: 100px auto;
+    width: 500px;
+}
+
+.imgs{
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: -20px; 
+    position: relative;
+}
+
+.images{
+    height: 150px;
+    width: 150px;
+}
+
+.name{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    margin-top: -55px;
+    min-width: 100px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+}
+
+.imgs:hover .name{
+    display: inline-block;
+}
