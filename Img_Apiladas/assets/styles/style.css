@@ -8,9 +8,10 @@ body{
 }
 
 .img-container{
+    align-items: center;
     display: flex;
-    margin: 100px auto;
-    width: 500px;
+    height: 100vh;
+    justify-content: center;
 }
 
 .imgs{
@@ -22,16 +23,18 @@ body{
 
 .images{
     height: 150px;
+    transition: all .5s;
     width: 150px;
 }
 
 .name{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
     color: #fff;
     display: none;
     margin-top: -55px;
     min-width: 100px;
+    padding: 5px 10px;
     position: absolute;
     text-align: center;
     width: 150px;
@@ -39,4 +42,30 @@ body{
 
 .imgs:hover .name{
     display: inline-block;
+    transform: translatey(-20px);
+}
+
+.name::before{
+    border-top: 10px solid rgba(0, 0, 0, .5);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    content: "";
+    height: 1px;
+    left: 45%;
+    bottom: -21px;
+    position: absolute;
+    width: 1px;
+} 
+
+.images:hover{
+    transform: translatey(-5px);
+}
+
+@media screen and (max-width:680px) {
+    .img-container{
+        flex-direction: column;
+        height: 180vh;
+    }
+
 }

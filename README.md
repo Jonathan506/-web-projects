@@ -19,3 +19,7 @@
 ## Price Table
 
 ![Price-Table](/Price_Table/Preview.png)
+
+## Imagenes Apiladas
+
+![Imagenes-Apiladas](/Img_Apiladas/Imagenes-Apiladas.gif)
