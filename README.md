@@ -23,3 +23,7 @@
 ## Imagenes Apiladas
 
 ![Imagenes-Apiladas](/Img_Apiladas/Imagenes-Apiladas.gif)
+
+## Search Bar
+
+![Search Bar](/Search_Bar/search-bar.png)
