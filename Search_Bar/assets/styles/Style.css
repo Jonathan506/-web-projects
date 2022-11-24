@@ -31,3 +31,33 @@ font-feature-settings: 'liga';
     margin: 100px auto;
     padding: 5px 10px;
 }
+
+.search-bar:focus-within{
+    border: 1px solid #aaa;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0,.2);
+}
+
+.input{
+    border: none;
+    flex: 2;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+}
+
+.actions{
+    display: flex;
+    gap: 5px;
+}
+
+.buttons{
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons:hover{
+    color: #87ceeb;
+}
